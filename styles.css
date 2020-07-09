@@ -5,10 +5,92 @@
 body {
     font-size: 112.5%;
     margin: 0;
+    
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-rows: 150px auto 75px;
+}
+
+a {
+    text-decoration: underline;
+    color:  #292f38;
+}
+
+p {
+    padding: 15px;
+}
+
+.banner {
+    background-color: #292f38;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.stack {
+    display: none;
+    height: 90px;
+    opacity: 0.08;
+    box-shadow: 0px 5px 5px 5px black;
+}
+.profillogo{
+    border-radius: 50%;
+    border: 5px solid;
+    border-color: white;
+    margin: auto;
+    margin-top: -70px;
+    margin-left: 80px;
+}
+
+.card {
+    margin: 10px;
+    /* width: 80vw; */
+    background-color: #F3F4F6;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 9px -12px rgba(41,47,56,0.5);
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-card {
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rd_logo {
+    width: 100px;
 }
 
 li {
     padding: 2px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #292f38;
+    color: #F3F4F6;
+}
+
+small {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* img {
+    width: 100vh;
+} */
+
+.profillogo {
+    width: 170px;
 }

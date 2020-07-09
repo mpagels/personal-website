@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="styles.css">
     <title>My first Website</title>
 </head>
 <body>
@@ -18,9 +18,17 @@
         </nav>
     </header>
     <main>
-            <img src="images/martin-profil.png" alt="">
+        <header class="banner">
+            <img class="stack" src="/images/html.png">
+            <img class="stack" src="/images/css.png">
+            <img class="stack" src="/images/js.png">
+        </header>
+        <section>
+            <img class ="profillogo" src="images/martin-profil.png" alt="">
+        </section>
+            
 
-        <section id="overview">
+        <section id="overview" class="card">
             <h2>Skills:</h2>
             <ul>
                 <li>Can <mark>plug</mark> a USB in on the <mark>first</mark> try</li>
@@ -29,7 +37,7 @@
             </ul>
         </section>
 
-        <section>
+        <section class="card">
             <h2>Interests:</h2>
             <ul>
                 <li>Cinema</li>
@@ -48,19 +56,21 @@
             World<br>
         </address>
 
-        <section id="social-working">
-            <h2> Social Working</h2>
-            <a href="https://github.com/mpagels"><img src="images/github_logo.png" alt="Github"></a>
-            <a href="https://codepen.io/dashboard/"><img src="images/codepen_logo.png" alt="Codepen"></a>
-            <a href="https://www.xing.com/profile/Martin_Pagels/cv"><img src="images/xing_logo.png" alt="XING"></a>
+        <section id="social-working" class="card social">
+            <!-- <h2> Social Working</h2> -->
+            <div class="social-card"><a href="https://github.com/mpagels"><img class="rd_logo" src="images/github_logo_rd.png" alt="Github"></a></div>
+            <div class="social-card"><a href="https://codepen.io/dashboard/"><img class="rd_logo" src="images/codepen_logo_rd.png" alt="Codepen"></a></div>
+            <div class="social-card"> <a href="https://www.xing.com/profile/Martin_Pagels/cv"><img class="rd_logo" src="images/xing_logo_rd.png" alt="XING"></a></div>
+            
+           
         </section>
         
-        <section id="bio">
+        <section id="bio" class="card">
             <h2>About me</h2>
             <p>In der Schule lieber Filme mit echten Laserschwertkämpfen gedreht als Kurven diskutiert, lieber Gitarrenakkorde als trockene Geschichtsdaten gelernt und lieber spannende Artikel für die Jugendredaktion der Ostseezeitung als langweilige Gedichtanalysen geschrieben. Nach dem Abitur das beschauliche Nordwestmecklenburg für die große weite Welt - die Medienstadt Hamburg - verlassen und beim NDR das Hobby zum Beruf gemacht. 2009 erfolgreich die Ausbildung zum Mediengestalter Bild und Ton abgeschlossen. Auf die Bereiche Schnitt und Postproduktion spezialisiert und Beiträge für NDR-Magazine wie z.B. Hamburg Journal, Visite, Panorama und extra3 geschnitten. Seit 2010 als Cutter für den NDR tätig, seit 2013 außerdem Umsetzung von Medienprojekten für Firmen und Privatleute. Freizeitfotograf, Sportler, Filmfan, Techniknerd.</p>
         </section>
 
-        <section>
+        <section class="cv card">
             <h2>CV</h2>
             <h3>Last work stations:</h3>
             <ul>
@@ -75,7 +85,7 @@
             </ul>
             <h3>Working Skills:</h3>
             <ul>
-                <li>Adobe Premiere Pro <i> - Experte</i> - 10 Jahre Erfahrung </li>
+                <li>Adobe Premiere Pro <progress value="95" max="100">95 %</progress> <br> 10 Jahre Erfahrung </li>
                 <li>Adobe After Effects <i> - Gut</i> - 10 Jahre Erfahrung</li>
                 <li>Adobe Photoshop<i> - Gut</i> - 14 Jahre Erfahrung</li>
                 <li>Mac OS<i> - Experte</i> - 14 Jahre Erfahrung</li>
@@ -83,8 +93,8 @@
         </section>
     </main>
 
-    <footer id="footer">
-       <small>Made with ❤ in Hamburg - 2020</small>
+    <footer id="footer" class="footer">
+       <small>Coded with <span class="heart">❤</span> in Hamburg - 2020</small>
     </footer>
 
 
