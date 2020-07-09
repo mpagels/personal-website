@@ -67,8 +67,21 @@ p {
     margin-top: -70px;
     margin-left: 80px;
 }
+.temp {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+    font-weight: lighter;
+    margin: 5px 0 30px 0;
+}
+
+.qoute-p {
+    margin-top: 5px;
+    padding-top: 0;
+}
 
 .quote {
+    display: none;
     text-align: center;
     background-color: #292f38;
    margin: 30px;
