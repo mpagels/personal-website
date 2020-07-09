@@ -70,12 +70,15 @@ p {
 
 .quote {
     text-align: center;
-    background-color:#cac8c438;
+    background-color: #292f38;
    margin: 30px;
+   color:  	#b7b1a8;
     padding: 20px;
     border-top: solid 1px;
     border-color:  #292f38;
-    border-radius: 2px;
+    border-radius: 3px;
+    font-family: "Monaco";
+    box-shadow: inset 0px 0px 4px 3px black;
 }
 
 .o_color {
