@@ -57,8 +57,8 @@ p {
     box-shadow: 0px 5px 5px 5px black;
 }
 .profillogo{
-    border-radius: 50%;
-    border: 5px solid;
+    border-radius: 5%;
+    border: 3px solid;
     border-color: white;
     margin: auto;
     margin-top: -70px;
