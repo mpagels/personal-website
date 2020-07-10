@@ -54,6 +54,9 @@ p {
     padding: 15px;
 }
 
+li {
+    margin: 15px;
+}
 .custum-adress-element {
     display: flex;
     justify-content: center;
@@ -142,8 +145,23 @@ p {
 .b_color {
     border-top: 5px solid;
     border-color: #663f33;
-    
-    
+}
+  
+.l {
+    padding-left: 0;;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.l1 {
+    align-self: flex-end;
+}
+.l2 {
+    align-self: center;
+}
+.l3 {
+    align-self: flex-start
 }
 .i-color {
     border-top: 5px solid;
