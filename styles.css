@@ -23,6 +23,12 @@ nav {
     margin-top: 20px;
 }
 
+mark {
+    background-color: #292f38;;
+    border-radius: 3px;
+    color: white;
+    padding: 3px;
+}
 .subline {
     font-weight: 400;
     padding-left: 5px;
@@ -66,29 +72,38 @@ p {
 }
 
 .stack {
+    margin-top: -50px;
     display: none;
     height: 90px;
     opacity: 0.08;
     box-shadow: 0px 5px 5px 5px black;
+}
+
+.profilfoto_wrapper {
+    display: flex;
+    justify-content: center;
 }
 .profillogo{
     border-radius: 5%;
     border: 3px solid;
     border-color: white;
     margin: auto;
-    margin-top: -65px;
-    margin-left: 80px;
+    margin-top: -105px;
+    width: 270px;
+    box-shadow: 0px 4px 6px 0px hsla(0,0%,0%,0.2);
+    
 }
 .temp {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: larger;
     font-weight: lighter;
-    margin: 5px 0 30px 0;
+    margin: 15px 0 30px 0;
+    padding-top: 10px;
 }
 
 .qoute-p {
-    margin-top: 5px;
+    margin-top: 10px;
     padding-top: 0;
 }
 
@@ -106,13 +121,13 @@ p {
     box-shadow: inset 0px 0px 4px 3px black;
 }
 
-.o_color {
+.o-color {
     border-top: 5px solid;
     border-color: #7e6052;
 }
 
 .card {
-    margin: 20px 0 ;
+    margin: 20px 0;
     /* width: 80vw; */
     background-color: #F3F4F6;
     padding: 25px;
@@ -161,7 +176,7 @@ address {
 .social {
     display: flex;
     flex-direction: column;
-    
+    flex-wrap: wrap;
     align-content: stretch;
 }
 
@@ -252,7 +267,7 @@ address {
     width: 85%;
 }
 li {
-    padding: 2px;
+    padding: 8px;
     font-size: 100%;
 }
 
@@ -278,10 +293,6 @@ small {
     width: 100vh;
 } */
 
-.profillogo {
-    width: 170px;
-}
-
 @media (min-width: 600px) {
     .skills {
         display: flex;
@@ -299,8 +310,10 @@ small {
 
 @media (min-width: 800px) {
     .social {
-        flex-direction: row;
-        justify-content: space-around;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2 auto;
+       
     
     }
     .custum-adress-element {
@@ -309,13 +322,13 @@ small {
     }
    
 }
-@media (min-width: 1440px) {
+@media (min-width: 1310px) {
     body {
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 1200px;
+        justify-content:center;
+        grid-template-columns:  1250px; 
         grid-template-rows: 100px auto 75px;
     }
+    
 
     header {
         display: flex;
@@ -331,10 +344,19 @@ small {
         width: 550px;
         height: 300px;
     }
-
+    .profilfoto_wrapper {
+        display: flex;
+        align-content: center;
+    }
     .profillogo {
-        margin: -40px 20px 0 0;
+        margin: 0px 20px 0 0;
         margin-left: -100px;
+    }
+
+    .social {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     .temp {
@@ -346,16 +368,20 @@ small {
         align-items: center;
     }
 
-    .o_color, .resp {
-        min-height: 300px;
-        margin: 0 10px
+    .b_color {
+        border-top: 3px solid;
+        border-color: #663f33;
+        min-height: 320px;
+        margin-right: 10px;
+        
     }
-
     
     .bio-cv-wrapper {
         display: flex; 
-        justify-content: space-between;  
+        justify-content: space-between;
+        margin-top: -20px;
     }
+
     .card {
         flex-basis: 100%;
         border-top: 1px ;
@@ -364,20 +390,18 @@ small {
     .i-color{
         border-top: 3px solid;
         border-color: #474548;
+        min-height: 320px;
         margin-left: 10px;
     }
    
-   .o_color{
-    border-top: 3px solid;
-    border-color: #7e6052;
-}
-.c_color {
-    border-top: 3px solid;
-    border-color: #663f33;
-    margin-right: 10px
-}
-.s_color {
-    border-top: 3px solid;
-    border-color: #663f33;
-}
+    .c_color {
+        border-top: 3px solid;
+        border-color: #663f33;
+        
+    }
+
+    .s-color {
+        border-top: 3px solid;
+        border-color: #663f33;
+    }
 }
