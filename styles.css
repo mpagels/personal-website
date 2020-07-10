@@ -44,10 +44,11 @@ p {
     padding: 15px;
 }
 
-.main-header {
-    display: flex;
-    flex-direction: column;
+.wrapper {
+   display: flex;
+   flex-direction: column;
 }
+
 .banner {
     background-color: #292f38;
     height: 200px;
@@ -242,10 +243,36 @@ small {
     }
 
     nav {
-       justify-items: flex-end; 
+        justify-items: flex-end; 
+     }
+
+    .banner {
+        width: 550px;
+        height: 300px;
     }
 
-    
+    .profillogo {
+        margin: -40px 20px 0 0;
+        margin-left: -100px;
+    }
+
+    .temp {
+        display: none;
+    }
+
+    .test {
+        display: flex;
+        align-items: center;
+    }
+
+    .o_color, .resp {
+        min-height: 300px;
+    }
+
+    .custum-adress-element {
+        display: flex;
+        justify-content: space-evenly;
+    }
     .bio-cv-wrapper {
         display: flex; 
         justify-content: space-between;  
@@ -253,4 +280,6 @@ small {
         .card {
             flex-basis: 100%;
         }
+
+    
    }
