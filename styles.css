@@ -6,7 +6,7 @@ body {
     font-size: 112.5%;
     margin: 0;
     color: #292f38;
-    padding: 20px;
+    padding: 10px;
     font-family: Helvetica;
     display: grid;
     grid-template-columns: 1fr; 
@@ -106,7 +106,7 @@ p {
 }
 
 .card {
-    margin: 10px;
+    margin: 20px 0 ;
     /* width: 80vw; */
     background-color: #F3F4F6;
     padding: 25px;
@@ -186,6 +186,7 @@ address {
     padding: 10px;
     margin: 15px;
     cursor: pointer;
+    background-color:#F3F4F6 ;
 }
 
 .skill-wrapper {
