@@ -44,6 +44,10 @@ p {
     padding: 15px;
 }
 
+.main-header {
+    display: flex;
+    flex-direction: column;
+}
 .banner {
     background-color: #292f38;
     height: 200px;
@@ -143,16 +147,46 @@ address {
 .social {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+   
 }
 
 .social-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F3F4F6;
+    width: 200px;
     margin: 20px;
     margin-left: auto;
     margin-right: auto;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 1px 0px hsla(0,0%,0%,0.2);
 }
 
+.s-color {
+    border-top: 5px solid;
+    border-color: #422119;   
+}
+
+.a_rd_logo {
+    padding-left: auto;
+    padding-right: auto
+}
 .rd_logo {
     width: 100px;
+    margin-left: auto;
+   
+}
+
+.social_button {
+    border: solid 1px;
+    border-color: #474548;
+    border-radius: 2px;
+    padding: 10px;
+    margin: 15px;
+    cursor: pointer;
 }
 
 li {
@@ -185,3 +219,36 @@ small {
 .profillogo {
     width: 170px;
 }
+
+
+@media (min-width: 1440px) {
+    body {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1200px;
+        grid-template-rows: 100px auto 75px;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav {
+       justify-items: flex-end; 
+    }
+
+
+    .social {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .bio-cv-wrapper {
+        display: flex; 
+        justify-content: space-between;  
+    }
+        .card {
+            flex-basis: 100%;
+        }
+   }
