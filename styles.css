@@ -227,6 +227,64 @@ address {
     background-color:#F3F4F6 ;
 }
 
+
+/* Education and Work Tree Style */
+
+.cv-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+.stage-or-way {
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+.stage {
+    color : white;
+    background-color: #292f386e;
+    padding: 20px;
+    border-radius: 3px;
+    margin: 40px;
+    width: 200px;
+    text-align: center;
+}
+  .section {
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+    margin: 10px -20px;
+  }
+  
+  .left {
+    text-align: center;
+  }
+  
+  .right {
+   
+    text-align: center;
+  }
+  .line {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .line-horizontal {
+    height: 1px;
+    background-color: #292f387a;
+    width: 60px;
+    border-radius: 8px;
+   
+  }
+  
+  .line-vertical {
+    height: 20px;
+    background-color: #292f3834;
+    width: 1px;
+    border-radius: 8px;
+  }
+
 .skill-wrapper {
     display: flex;
     flex-direction: column;
