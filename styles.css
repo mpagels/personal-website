@@ -56,6 +56,7 @@ p {
     justify-content: space-evenly;
     align-items: center;
     border-radius: 2px;
+    box-shadow: 0px 4px 6px 0px hsla(0,0%,0%,0.2);
 }
 
 .stack {
@@ -108,7 +109,7 @@ p {
     margin: 10px;
     /* width: 80vw; */
     background-color: #F3F4F6;
-    padding: 10px;
+    padding: 25px;
     border-radius: 5px;
     box-shadow: 0px 4px 6px 0px hsla(0,0%,0%,0.2);
 }
@@ -190,6 +191,54 @@ address {
     cursor: pointer;
 }
 
+.skill-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.desription {
+    align-self: flex-start;
+    margin: 10px 0 10px 0;
+}
+
+.bar {
+    align-self: flex-end;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+.bar-outline {
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 5px;
+   
+}
+.bar-inline {
+    background-color: #292f3891;
+    height: 5px;
+}
+
+.pr {
+    width: 95%;
+}
+.ae {
+    width: 70%;
+}
+
+.ps {
+    width: 85%;
+}
+.mac {
+    width: 85%;
+}
 li {
     padding: 2px;
     font-size: 100%;
@@ -220,6 +269,27 @@ small {
 .profillogo {
     width: 170px;
 }
+
+@media (min-width: 600px) {
+    .skills {
+        display: flex;
+        flex-direction: row;
+        align-items: space-around;
+        
+
+}
+    .bar {
+        align-self: center;
+    }
+}
+
+
+
+
+
+
+
+
 
 @media (min-width: 800px) {
     .social {
