@@ -6,7 +6,7 @@ body {
     font-size: 112.5%;
     margin: 0;
     color: #292f38;
-    padding: 10px;
+    padding: 20px;
     font-family: Helvetica;
     display: grid;
     grid-template-columns: 1fr; 
@@ -44,9 +44,15 @@ p {
     padding: 15px;
 }
 
+.custum-adress-element {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 .wrapper {
    display: flex;
    flex-direction: column;
+   
 }
 
 .banner {
@@ -70,7 +76,7 @@ p {
     border: 3px solid;
     border-color: white;
     margin: auto;
-    margin-top: -70px;
+    margin-top: -65px;
     margin-left: 80px;
 }
 .temp {
@@ -112,6 +118,7 @@ p {
     padding: 25px;
     border-radius: 5px;
     box-shadow: 0px 4px 6px 0px hsla(0,0%,0%,0.2);
+
 }
 
 .i-color {
@@ -123,11 +130,19 @@ p {
     border-top: 5px solid;
     border-color: #663f33;
 }
+
+.s-color {
+    border-top: 5px solid;
+    border-color: #474548;
+}
 .wrapper {
+    
     margin: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .padd {
@@ -146,8 +161,8 @@ address {
 .social {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-   
+    
+    align-content: stretch;
 }
 
 .social-card {
@@ -155,13 +170,12 @@ address {
     flex-direction: column;
     align-items: center;
     background-color: #F3F4F6;
-    width: 200px;
+    width: auto;
     margin: 20px;
-    margin-left: auto;
-    margin-right: auto;
+
     padding: 15px;
     border-radius: 5px;
-    box-shadow: 0px 2px 1px 0px hsla(0,0%,0%,0.2);
+    /* box-shadow: 0px 2px 1px 0px hsla(0,0%,0%,0.2);*/
 }
 
 .s-color {
@@ -276,6 +290,7 @@ small {
         
 
 }
+
     .bar {
         align-self: center;
     }
@@ -288,6 +303,11 @@ small {
         justify-content: space-around;
     
     }
+    .custum-adress-element {
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+   
 }
 @media (min-width: 1440px) {
     body {
@@ -328,12 +348,10 @@ small {
 
     .o_color, .resp {
         min-height: 300px;
+        margin: 0 10px
     }
 
-    .custum-adress-element {
-        display: flex;
-        justify-content: space-evenly;
-    }
+    
     .bio-cv-wrapper {
         display: flex; 
         justify-content: space-between;  
@@ -346,6 +364,7 @@ small {
     .i-color{
         border-top: 3px solid;
         border-color: #474548;
+        margin-left: 10px;
     }
    
    .o_color{
@@ -353,6 +372,11 @@ small {
     border-color: #7e6052;
 }
 .c_color {
+    border-top: 3px solid;
+    border-color: #663f33;
+    margin-right: 10px
+}
+.s_color {
     border-top: 3px solid;
     border-color: #663f33;
 }
