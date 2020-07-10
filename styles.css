@@ -10,7 +10,7 @@ body {
     font-family: Helvetica;
     display: grid;
     grid-template-columns: 1fr; 
-    grid-template-rows: 170px auto 75px;
+    grid-template-rows: 220px auto 75px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -20,7 +20,11 @@ h1 {
 }
 
 nav {
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 
 mark {
@@ -43,7 +47,7 @@ a {
     text-decoration: underline;
     color:  #292f38;
     font-weight: 500;
-    padding: 6px;;
+    margin:10px
 }
 
 p {
@@ -135,7 +139,12 @@ p {
     box-shadow: 0px 4px 6px 0px hsla(0,0%,0%,0.2);
 
 }
-
+.b_color {
+    border-top: 5px solid;
+    border-color: #663f33;
+    
+    
+}
 .i-color {
     border-top: 5px solid;
     border-color: #474548;
@@ -293,6 +302,12 @@ small {
     width: 100vh;
 } */
 
+@media (min-width: 489px) {
+    body {
+    grid-template-rows: 170px auto 75px;
+    }
+}
+
 @media (min-width: 600px) {
     .skills {
         display: flex;
@@ -316,20 +331,13 @@ small {
        
     
     }
+    h1 {
+        margin-top: 0;
+    }
     .custum-adress-element {
         justify-content: space-evenly;
         flex-direction: row;
     }
-   
-}
-@media (min-width: 1310px) {
-    body {
-        justify-content:center;
-        grid-template-columns:  1250px; 
-        grid-template-rows: 100px auto 75px;
-    }
-    
-
     header {
         display: flex;
         justify-content: space-between;
@@ -339,6 +347,16 @@ small {
     nav {
         justify-items: flex-end; 
      }
+}
+@media (min-width: 1310px) {
+    body {
+        justify-content:center;
+        grid-template-columns:  1250px; 
+        grid-template-rows: 100px auto 75px;
+    }
+    
+
+   
 
     .banner {
         width: 550px;
