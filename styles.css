@@ -10,7 +10,7 @@ body {
     font-family: Helvetica;
     display: grid;
     grid-template-columns: 1fr; 
-    grid-template-rows: 220px auto 75px;
+    grid-template-rows: 220px auto 100px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -358,17 +358,28 @@ li {
 
 footer {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
     background-color: #292f38;
     color: #F3F4F6;
+    padding-top: 30px;
     margin-left: -20px;
     margin-right: -20px;
-    margin-bottom: -20px;
+    margin-bottom: -40px;
 
 }
 
+.mini-social {
+    display: flex;
+}
+
+.pic_small {
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
 small {
     margin-top: auto;
     margin-bottom: auto;
@@ -380,7 +391,7 @@ small {
 
 @media (min-width: 489px) {
     body {
-    grid-template-rows: 170px auto 75px;
+    grid-template-rows: 170px auto 100px;
     }
 }
 
@@ -414,7 +425,7 @@ small {
     body {
         justify-content:center;
         grid-template-columns:  1250px; 
-        grid-template-rows: 100px auto 75px;
+        grid-template-rows: 100px auto 100px;
     }
     
 
@@ -495,5 +506,4 @@ small {
     .bar {
         align-self: center;
     }
-}
 }
