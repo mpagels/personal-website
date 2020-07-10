@@ -220,7 +220,13 @@ small {
     width: 170px;
 }
 
-
+@media (min-width: 800px) {
+    .social {
+        flex-direction: row;
+        justify-content: space-around;
+    
+    }
+}
 @media (min-width: 1440px) {
     body {
         margin-left: auto;
@@ -239,11 +245,7 @@ small {
        justify-items: flex-end; 
     }
 
-
-    .social {
-        flex-direction: row;
-        justify-content: space-around;
-    }
+    
     .bio-cv-wrapper {
         display: flex; 
         justify-content: space-between;  
