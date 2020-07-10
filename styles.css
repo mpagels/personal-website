@@ -167,7 +167,10 @@ footer {
     text-align: center;
     background-color: #292f38;
     color: #F3F4F6;
-    border-radius: 2px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: -20px;
+
 }
 
 small {
