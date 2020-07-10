@@ -118,9 +118,6 @@ p {
     border-top: 5px solid;
     border-color: #474548;
 }
-.custum-adress-element {
-
-}
 
 .c_color {
     border-top: 5px solid;
@@ -284,13 +281,6 @@ small {
 }
 
 
-
-
-
-
-
-
-
 @media (min-width: 800px) {
     .social {
         flex-direction: row;
@@ -347,9 +337,22 @@ small {
         display: flex; 
         justify-content: space-between;  
     }
-        .card {
-            flex-basis: 100%;
-        }
+    .card {
+        flex-basis: 100%;
+        border-top: 1px ;
+    }
 
-    
-   }
+    .i-color{
+        border-top: 3px solid;
+        border-color: #474548;
+    }
+   
+   .o_color{
+    border-top: 3px solid;
+    border-color: #7e6052;
+}
+.c_color {
+    border-top: 3px solid;
+    border-color: #663f33;
+}
+}
