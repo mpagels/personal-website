@@ -247,7 +247,7 @@ address {
 }
 
 .bar {
-    align-self: flex-end;
+    align-self: flex-start;
     padding-top: auto;
     padding-bottom: auto;
 }
@@ -305,20 +305,6 @@ small {
 @media (min-width: 489px) {
     body {
     grid-template-rows: 170px auto 75px;
-    }
-}
-
-@media (min-width: 600px) {
-    .skills {
-        display: flex;
-        flex-direction: row;
-        align-items: space-around;
-        
-
-}
-
-    .bar {
-        align-self: center;
     }
 }
 
@@ -422,4 +408,16 @@ small {
         border-top: 3px solid;
         border-color: #663f33;
     }
+        .skills {
+        display: flex;
+        flex-direction: row;
+        align-items: space-around;
+        
+
+}
+
+    .bar {
+        align-self: center;
+    }
+}
 }
