@@ -308,6 +308,13 @@ address {
 
 /* Education and Work Tree Style */
 
+.overall-cv-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 .cv-wrapper {
     display: flex;
     flex-direction: column;
@@ -333,7 +340,7 @@ address {
     align-items: center;
     
     justify-content: space-between;
-    margin: 10px -20px;
+    margin: 30px -20px;
   }
   
   .left {
@@ -362,6 +369,11 @@ address {
     width: 1px;
     border-radius: 8px;
   }
+.work-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .skill-wrapper {
     display: flex;
@@ -480,6 +492,16 @@ small {
     nav {
         justify-items: flex-end; 
      }
+    }
+    @media (min-width: 920px) {
+     .cv-wrapper {
+         width: 800px;
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: space-around;
+      }
+  
 }
 
     
@@ -557,14 +579,13 @@ small {
         border-top: 3px solid;
         border-color: #663f33;
     }
-        .skills {
-        display: flex;
-        flex-direction: row;
-        align-items: space-around;
         
-
-}
-
+.cv-wrapper {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
     .bar {
         align-self: center;
     }
