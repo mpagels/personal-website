@@ -22,10 +22,13 @@ h1 {
 
 nav {
     display: flex;
-    flex-wrap: wrap;
-
+    
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.nav_a {
+    margin-left: 0px;
 }
 
 mark {
@@ -36,7 +39,12 @@ mark {
 }
 .subline {
     font-weight: 400;
-    padding-left: 5px;
+    
+}
+
+.a_coord {
+    text-decoration: none;
+    margin: 0 0;
 }
 
 h2, h3 {
