@@ -613,6 +613,9 @@ small {
 }
 
 @media (min-width: 650px) {
+    body {
+        grid-template-rows: 100px auto 100px;
+    }
     header {
         display: flex;
         justify-content: space-between;
@@ -622,6 +625,9 @@ small {
     nav {
         justify-items: flex-end; 
      }
+    .banner {
+        margin-top: 75px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -649,9 +655,7 @@ small {
         grid-template-rows: 2 auto;
     }
 
-    h1 {
-        margin-top: 0;
-    }
+   
 
     .custum-adress-element {
         justify-content: space-evenly;
@@ -680,14 +684,15 @@ small {
  
 @media (min-width: 1310px) {
     body {
-        justify-content:center;
+        justify-content: center;
         grid-template-columns:  1250px; 
-        grid-template-rows: 100px auto 100px;
+        
     }
 
     .banner {
         width: 550px;
         height: 300px;
+        margin-top: 0px;
     }
 
     .profilfoto_wrapper {
