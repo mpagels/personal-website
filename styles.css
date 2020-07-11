@@ -70,11 +70,13 @@ li {
 }
 
 .banner {
-    background-color: #292f38;
-    height: 200px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+
+    background-color: #292f38;
+    height: 200px;
+   
     border-radius: 2px;
     box-shadow: 0px 4px 6px 0px hsla(0,0%,0%,0.2);
 }
