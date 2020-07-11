@@ -421,6 +421,8 @@ p.me {
     text-align: center;
     padding-top: 20px 0;
     line-height: 220%;
+    font-size: larger;
+    font-weight: lighter;
 }
 
 .br {
@@ -600,6 +602,10 @@ small {
     margin-bottom: auto;
 }
 
+
+/* BEGIN MEDIA QUERIES */
+
+
 @media (min-width: 489px) {
     body {
     grid-template-rows: 175px auto 100px;
@@ -654,8 +660,6 @@ small {
    
 }
 
-   
-    
 @media (min-width: 920px) {
      .cv-wrapper {
          width: 800px;
