@@ -234,6 +234,7 @@ li.interest-list {
 .i-color {
     border-top: 5px solid;
     border-color: #474548;
+    
 }
 
 .c_color {
@@ -304,13 +305,16 @@ address {
 }
 
 .social_button {
-    border: solid 1px;
-    border-color: #474548;
+    border: dotted 2px;
+    border-color: #47454842;
     border-radius: 2px;
-    padding: 10px;
-    margin: 15px;
+    color:  #4745489f;
+    padding: 25px;
+    margin-top: 15px;
     cursor: pointer;
     background-color:#F3F4F6 ;
+    font-size: 100%;
+    width: 200px;
 }
 
 
@@ -540,17 +544,13 @@ small {
         
     }
 }
-
-    
+ 
 @media (min-width: 1310px) {
     body {
         justify-content:center;
         grid-template-columns:  1250px; 
         grid-template-rows: 100px auto 100px;
     }
-    
-
-   
 
     .banner {
         width: 550px;
@@ -597,19 +597,34 @@ small {
     .card {
         flex-basis: 100%;
         border-top: 1px ;
+        
     }
 
+    .b_color {
+        background-color: white;
+        box-shadow: none;
+    }
     .i-color{
         border-top: 3px solid;
         border-color: #474548;
         min-height: 320px;
-        
+        flex-basis: content;  
     }
    
     .c_color {
         border-top: 3px solid;
         border-color: #663f33;
-        
+    
+    }
+
+    .g-color {
+        height: 459px;
+    }
+    .e-color {
+        margin-left: 10px;
+    }
+    .a-color {
+        margin-right: 10px;
     }
 
     .s-color {
