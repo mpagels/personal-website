@@ -90,6 +90,7 @@ li {
     display: flex;
     justify-content: center;
 }
+
 .profillogo{
     border-radius: 5%;
     border: 3px solid;
@@ -143,7 +144,7 @@ li {
     color : #292f38;
     font-weight: 900;
     border-bottom: solid 1px;
-    border-color: #292f386e;
+    border-color: #1E524B;
     padding: 20px;
     border-radius: 2px;
     margin: 40px;
@@ -184,6 +185,57 @@ li {
     
 }
 
+.content-stack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.stack-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 180px;
+    height: 64px;
+
+    margin: 30px;
+    padding: 15px; 
+
+    text-align: center;
+    font-weight: 300;
+    color:  #292f38;
+    font-family: "Open Sans", sans-serif;
+    
+    border-radius: 3px;
+    border: solid 1px #292f381e;
+}
+
+.content-goals {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.goals-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 180px;
+    height: 64px;
+
+    margin: 30px;
+    padding: 15px; 
+
+    text-align: center;
+    font-weight: 300;
+    color:  #292f38;
+    font-family: "Open Sans", sans-serif;
+    
+    border-radius: 3px;
+    border: solid 1px #292f381e;
+}
 
 .interest-item {
     
@@ -609,13 +661,14 @@ small {
         align-items: center;
     }
 
-    .b_color {
+    
+    /* .b_color {
         border-top: 3px solid;
         border-color: #663f33;
         min-height: 320px;
         margin-right: 10px;
         
-    }
+    } */
     
     .bio-cv-wrapper {
         display: flex; 
@@ -646,6 +699,11 @@ small {
     
     }
 
+    .s-color {
+        border-top :0px;
+        height: 459px;
+    }
+
     .g-color {
         height: 459px;
     }
@@ -656,11 +714,12 @@ small {
         margin-right: 10px;
     }
 
-    .s-color {
-        border-top: 3px solid;
-        border-color: #663f33;
-    }
+   
         
+.h-stack {
+   
+
+}
 
 .tech-list {
     display: grid;
@@ -669,6 +728,37 @@ small {
     gap: 0px 0px;
 }
 
+.content-stack {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.stack-item {
+    margin: 0;
+    border: none;
+    padding:0;
+    justify-self: center;
+    align-self: stretch;
+
+}
+
+.content-goals {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 30px);
+    gap: 10px;
+    
+}
+
+.goals-item {
+    margin: 0;
+    border: none;
+    padding:0;
+    justify-self: center;
+    align-self: stretch;
+
+}
 .stack-list {
     list-style-type: none;
     padding-left: 0px;
