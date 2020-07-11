@@ -144,7 +144,7 @@ li {
     color : #292f38;
     font-weight: 900;
     border-bottom: solid 1px;
-    border-color: #1E524B;
+    border-color: #264d64;
     padding: 20px;
     border-radius: 2px;
     margin: 40px;
@@ -211,6 +211,18 @@ li {
     border: solid 1px #292f381e;
 }
 
+.g-stack {
+    color : #292f38;
+    font-weight: 900;
+    border-bottom: solid 1px;
+    border-color: #926c59;
+    padding: 20px;
+    border-radius: 2px;
+    margin: 40px;
+    width: 200px;
+    text-align: center;
+}
+
 .content-goals {
     display: flex;
     flex-wrap: wrap;
@@ -237,6 +249,17 @@ li {
     border: solid 1px #292f381e;
 }
 
+.i-stack {
+    color : #292f38;
+    font-weight: 900;
+    border-bottom: solid 1px;
+    border-color: #474548;
+    padding: 20px;
+    border-radius: 2px;
+    margin: 40px;
+    width: 200px;
+    text-align: center;
+}
 .interest-item {
     
     display: flex;
@@ -285,7 +308,7 @@ li.interest-list {
 }
 .b_color {
     border-top: 5px solid;
-    border-color: #663f33;
+    border-color: #926c59;
 }
   
 .l {
@@ -317,7 +340,7 @@ li.interest-list {
 
 .s-color {
     border-top: 5px solid;
-    border-color: #474548;
+    border-color: #264d64
 }
 .wrapper {
     
@@ -362,9 +385,9 @@ address {
     /* box-shadow: 0px 2px 1px 0px hsla(0,0%,0%,0.2);*/
 }
 
-.s-color {
+.so-color {
     border-top: 5px solid;
-    border-color: #422119;   
+    border-color:#264d64;   
 }
 
 .a_rd_logo {
@@ -723,13 +746,10 @@ small {
         
     }
 
-   
-        
-.h-stack {
-   
-
+.so-color {
+    border-top: 3px solid;
+    border-color: #264d64
 }
-
 .tech-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
