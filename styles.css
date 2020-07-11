@@ -7,7 +7,7 @@ body {
     margin: 0;
     color: #292f38;
     padding: 20px;
-    font-family: Helvetica;
+    font-family: "Open Sans", sans-serif;
     display: grid;
     grid-template-columns: 1fr; 
     grid-template-rows: 220px auto 100px;
@@ -160,10 +160,17 @@ li {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    
-   
 }
 
+.stack-list {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
 .content-interested-in {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -198,7 +205,7 @@ li.interest-list {
     margin: 20px 0;
     /* width: 80vw; */
     background-color: #F3F4F6;
-    padding: 25px;
+    padding: 50px 20px;
     border-radius: 5px;
     box-shadow: 0px 4px 6px 0px hsla(0,0%,0%,0.2);
 
@@ -398,6 +405,8 @@ address {
 .desription {
     align-self: flex-start;
     margin: 10px 0 10px 0;
+    font-weight: 300;
+    
 }
 
 .bar {
@@ -478,6 +487,13 @@ small {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(5, 50px);
+        gap: 80px 180px;
+        
+    }
+    .stack-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 50px);
         gap: 80px 180px;
         
     }
@@ -606,6 +622,17 @@ small {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 50px);
+    gap: 0px 0px;
+}
+
+.stack-list {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     gap: 0px 0px;
 }
 .cv-wrapper {
