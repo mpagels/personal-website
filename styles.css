@@ -21,10 +21,11 @@ h1 {
 }
 
 nav {
-    margin-top: 10px;
-    margin-bottom: 10px;
     display: flex;
     flex-wrap: wrap;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 mark {
