@@ -621,7 +621,7 @@ small {
    
 }
 
-@media (min-width: 800px) {
+@media (min-width: 844px) {
     .social {
         display: grid;
         grid-template-columns: 1fr 1fr;
