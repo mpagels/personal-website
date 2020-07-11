@@ -155,10 +155,11 @@ li {
    
     list-style-type: none;
     padding-left: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     
    
 }
@@ -321,6 +322,11 @@ address {
     align-items: center;
   }
   
+.station {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .stage-or-way {
     font-weight: bolder;
     margin-bottom: 15px;
@@ -340,7 +346,7 @@ address {
     align-items: center;
     
     justify-content: space-between;
-    margin: 30px -20px;
+    margin: 30px 0;
   }
   
   .left {
@@ -467,6 +473,15 @@ small {
     }
 }
 
+@media (min-width: 768px) {
+    .tech-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 50px);
+        gap: 80px 180px;
+        
+    }
+}
 
 @media (min-width: 800px) {
     .social {
@@ -501,7 +516,13 @@ small {
         align-items: stretch;
         justify-content: space-around;
       }
-  
+      .tech-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 50px);
+        gap: 50px 50px;
+        
+    }
 }
 
     
@@ -566,7 +587,7 @@ small {
         border-top: 3px solid;
         border-color: #474548;
         min-height: 320px;
-        margin-left: 10px;
+        
     }
    
     .c_color {
@@ -580,6 +601,13 @@ small {
         border-color: #663f33;
     }
         
+
+.tech-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 50px);
+    gap: 0px 0px;
+}
 .cv-wrapper {
     width: auto;
     display: flex;
