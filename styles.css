@@ -3,15 +3,16 @@
 }
 
 body {
-    font-size: 112.5%;
-    margin: 0;
-    color: #292f38;
-    padding: 20px;
-    font-family: "Open Sans", sans-serif;
     display: grid;
     grid-template-columns: 1fr; 
     grid-template-rows: 175px auto 100px;
-    font-family: 'Open Sans', sans-serif;
+
+    margin: 0;
+    padding: 20px;
+
+    font-size: 112.5%;
+    color: #292f38;
+    font-family: "Open Sans", sans-serif;
 }
 
 h1 {
@@ -24,7 +25,6 @@ nav {
     margin-bottom: 10px;
     display: flex;
     flex-wrap: wrap;
-    
 }
 
 mark {
@@ -133,7 +133,6 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 
 .tech-boxes{
@@ -181,8 +180,7 @@ li {
     /* display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 50px);
-    gap: 10px 30px; */
-    
+    gap: 10px 30px; */  
 }
 
 .content-stack {
@@ -558,14 +556,15 @@ footer {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    text-align: center;
-    background-color: #292f38;
-    color: #F3F4F6;
+
     padding-top: 30px;
     margin-left: -20px;
     margin-right: -20px;
     margin-bottom: -40px;
 
+    text-align: center;
+    background-color: #292f38;
+    color: #F3F4F6;
 }
 
 .mini-social {
@@ -581,10 +580,6 @@ small {
     margin-top: auto;
     margin-bottom: auto;
 }
-
-/* img {
-    width: 100vh;
-} */
 
 @media (min-width: 489px) {
     body {
