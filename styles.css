@@ -363,10 +363,6 @@ li.interest-list {
     padding-right: -40px;
 }
 
-address {
-    padding: 50px;
-}
-
 .social {
     display: flex;
     flex-direction: column;
