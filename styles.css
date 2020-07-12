@@ -436,6 +436,10 @@ p.me {
     font-weight: lighter;
 }
 
+.me span {
+    font-weight: 500;
+}
+
 .br {
     white-space: pre-wrap;
 }
