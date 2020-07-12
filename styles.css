@@ -288,6 +288,7 @@ li {
     font-weight: 300;
     color:  white;
     font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
     
     border-radius: 3px;
     border: solid 1px #292f381e;
@@ -365,6 +366,7 @@ li.interest-list {
 .padd {
     padding-left: 20px;
     font-weight: normal;
+    font-weight: lighter;
 }
 .phone {
     
@@ -420,6 +422,7 @@ li.interest-list {
     color:  #4745489f;
     font-size: 100%;
     font-weight: 300;
+    font-weight: lighter;
 
     background-color:#F3F4F6 ;
     cursor: pointer;
@@ -483,10 +486,12 @@ p.me {
   
   .left {
     text-align: center;
+    font-weight: 300;
   }
   
   .right {
     text-align: center;
+    font-weight: 300;
   }
 
   .line {
